@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+body{
+    font-family: "Orbitron", sans-serif;
+    background-color: rgb(7, 128, 204);
+}
+
+section{
+    text-align: center;
+    border-radius: 30px;
+    width: 500px;
+    margin: auto;
+    background-color:white;
+    margin-top: 95px;
+    
+}
+
+.game__title{
+    padding-top: 40px;
+    color: rgb(194, 110, 194);
+    align-items: center;
+    font-size: xx-large;
+    
+}
+
+.game__container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 18px;
+    width: 150px;
+    margin: 150px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.cell{
+    font-family: "Permanent Marker", cursive;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 0 0 1px pink ;
+    border: 3px solid pink;
+    cursor: pointer;
+    line-height: 50px;
+    font-size: 50px;
+    color: black;
+}
+
+button{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    color:white;
+    font-style: bold;
+    background-color:rgb(126, 131, 213);
+    cursor: pointer;
+    font-family: "Orbitron", sans-serif;
+    font-size: 16;
+}
+
+button:hover{
+    transition: 0.25s;
+    background-color:rgb(116, 116, 216);
+}
